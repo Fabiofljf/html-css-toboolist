@@ -4,16 +4,16 @@
 }
 
 :root{
-    --main-color: #F6F8F9;
-    --header_color: white;
-    --style_color_button_one: #14AAF5;
-    --style_color_button_two: white;
-    --style_color_button_text_firstone: #14AAF5;
-    --style_color_button_text_one: #AB5DE6;
+    --main-color: #f5f373;
+    --header_color: rgb(156, 107, 107);
+    --style_color_button_one: #264352;
+    --style_color_button_two: rgb(158, 28, 28);
+    --style_color_button_text_firstone: #133e53;
+    --style_color_button_text_one: #2382b9;
     --style_color_button_text_two: #2CC6AB;
     --style_color_button_text_three: #FF9B00;
-    --style_color_button_text_four: #EC4A9D;
-    --style_color_button_text_five: #A3D116;
+    --style_color_button_text_four: #2f8651;
+    --style_color_button_text_five: #193353;
 }
 
 .display{
