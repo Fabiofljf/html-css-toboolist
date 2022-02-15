@@ -7,6 +7,11 @@
     --header_color: white;
     --style_color_button_one: #14AAF5;
     --style_color_button_two: white;
+    --style_color_button_text_one: #AB5DE6;
+    --style_color_button_text_two: #2CC6AB;
+    --style_color_button_text_three: #FF9B00;
+    --style_color_button_text_four: #EC4A9D;
+    --style_color_button_text_five: #A3D116;
 }
 
 .display{
@@ -97,4 +102,30 @@ body{
     font-size: 0.8rem;
     padding: 6px;
 }
+
+.Q1Goals_button{
+    background-color: var(--style_color_button_text_one);
+    height: 0.9rem;
+    width: 3.1rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.Recluiting_button{
+    background-color: var(--style_color_button_text_two);
+    height: 0.9rem;
+    width: 3.4rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.Mobile_button{
+    background-color: var(--style_color_button_text_three);
+    height: 0.9rem;
+    width: 2.25rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+
 /******** footer *******/
