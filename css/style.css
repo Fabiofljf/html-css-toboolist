@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    
 }
 
 :root{
@@ -20,7 +21,8 @@
 }
 
 body{
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    color: #444952;
 }
 
 /*********  header *********/
@@ -38,11 +40,18 @@ body{
     vertical-align: top;
     margin-top: 2rem;
     font-size: 2.5rem;
+    color: black;
 }
 
 /********* main ***********/
 
 /* start first block */
+
+#central_block{
+    margin: 0 auto;
+    width: 70rem;
+}
+
 #first_block{
     width: 70rem;
     height: 5rem;
@@ -74,9 +83,13 @@ body{
 
 /* start second block */
 
+h2{
+    color: black;
+}
+
 #second_block{
     width: 70rem;
-    height: 40rem;
+    height: 37rem;
     background-color: var(--header_color);
     margin-top: .10rem;
     border-radius: 0.5rem;
