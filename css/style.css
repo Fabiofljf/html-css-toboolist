@@ -16,7 +16,8 @@
 body{
     background-color: var(--main-color)
 }
-/* header */
+
+/*********  header *********/
 
 #site_header{
     background-color: var(--header_color);
@@ -33,8 +34,9 @@ body{
     font-size: 2.5rem;
 }
 
-/* main */
+/********* main ***********/
 
+/* start first block */
 #first_block{
     width: 70rem;
     height: 5rem;
@@ -64,4 +66,35 @@ body{
     color: gray;
 }
 
-/* footer */
+/* start second block */
+
+#second_block{
+    width: 70rem;
+    height: 40rem;
+    background-color: var(--header_color);
+    margin-top: .10rem;
+    border-radius: 0.5rem;
+}
+
+.general_text{
+    padding: 2rem;
+}
+
+.style_check{
+    color: #52D1BA;
+    font-size: 1.6rem;
+}
+
+.style_dx_text{
+    color: white;
+    border-radius: 1rem;
+}
+
+.editors_button{
+    background-color: var(--style_color_button_one);
+    height: 0.9rem;
+    width: 2.8rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+/******** footer *******/
