@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+:root{
+    --main-color: #F6F8F9;
+    --header_color: white;
+}
+
+.display{
+    display: inline-block;
+}
+
+body{
+    background-color: var(--main-color)
+}
+/* header */
+
+#site_header{
+    background-color: var(--header_color);
+}
+
+#logo{
+    height: 7rem;
+    width: 7rem;
+}
+
+#logotext{
+    vertical-align: top;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+/* main */
+
+/* footer */
