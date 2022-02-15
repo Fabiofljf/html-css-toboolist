@@ -7,6 +7,7 @@
     --header_color: white;
     --style_color_button_one: #14AAF5;
     --style_color_button_two: white;
+    --style_color_button_text_firstone: #14AAF5;
     --style_color_button_text_one: #AB5DE6;
     --style_color_button_text_two: #2CC6AB;
     --style_color_button_text_three: #FF9B00;
@@ -95,15 +96,15 @@ body{
     border-radius: 1rem;
 }
 
-.editors_button{
-    background-color: var(--style_color_button_one);
+.editorial_button{
+    background-color: var(--style_color_button_text_firstone);
     height: 0.9rem;
     width: 2.8rem;
     font-size: 0.8rem;
     padding: 6px;
 }
 
-.Q1Goals_button{
+.q1Goals_button{
     background-color: var(--style_color_button_text_one);
     height: 0.9rem;
     width: 3.1rem;
@@ -111,7 +112,7 @@ body{
     padding: 6px;
 }
 
-.Recluiting_button{
+.recluiting_button{
     background-color: var(--style_color_button_text_two);
     height: 0.9rem;
     width: 3.4rem;
@@ -119,7 +120,7 @@ body{
     padding: 6px;
 }
 
-.Mobile_button{
+.mobile_button{
     background-color: var(--style_color_button_text_three);
     height: 0.9rem;
     width: 2.25rem;
@@ -127,5 +128,28 @@ body{
     padding: 6px;
 }
 
+.website_button{
+    background-color: var(--style_color_button_text_four);
+    height: 0.9rem;
+    width: 2.5rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.sales_button{
+    background-color: var(--style_color_button_text_five);
+    height: 0.9rem;
+    width: 1.7rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+
+.mobile_button{
+    background-color: var(--style_color_button_text_firstone);
+    height: 0.9rem;
+    width: 2.8rem;
+    font-size: 0.8rem;
+    padding: 6px;
+}
 
 /******** footer *******/
