@@ -5,6 +5,8 @@
 :root{
     --main-color: #F6F8F9;
     --header_color: white;
+    --style_color_button_one: #14AAF5;
+    --style_color_button_two: white;
 }
 
 .display{
@@ -32,5 +34,34 @@ body{
 }
 
 /* main */
+
+#first_block{
+    width: 70rem;
+    height: 5rem;
+    background-color: var(--header_color);
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+}
+
+#style_button{
+    padding: 2rem;
+}
+
+.style_button_size{
+    font-size: 0.75rem;
+    width: 5.5rem;
+    height: 1.8rem;
+    border-radius: 0.3rem;
+}
+
+#style_color_button_one{
+    background-color: var(--style_color_button_one);
+    color: white;
+}
+
+#style_color_button_two{
+    background-color: var(--style_color_button_two);
+    color: gray;
+}
 
 /* footer */
